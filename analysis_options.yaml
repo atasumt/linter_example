@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    avoid_print: ignore
+    prefer_const_constructors: error
+
+linter:
+  rules:
+   prefer_const_constructors: false
+   use_key_in_widget_constructors: false
+   avoid_print: true
